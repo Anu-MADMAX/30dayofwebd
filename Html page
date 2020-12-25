@@ -27,6 +27,12 @@
 <label for="num">Contact Number:</label>
 <input type="number" id="num" name="num">
 </form>
+<img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 <footer>
 <input type="button" onclick="You have submitted the form" value="Submit">
 </footer>
