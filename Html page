@@ -4,6 +4,29 @@
 <meta charset="utf-8">
 <title>My WebPage</title>
 </head>
+<style>
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+
+
+
+
+</style>
+
 <body>
 <table>
 <tr>
@@ -32,7 +55,7 @@
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
-</video>
+</video><p> This is a barebones html page</p> </body>
 <footer>
 <input type="button" onclick="You have submitted the form" value="Submit">
 </footer>
